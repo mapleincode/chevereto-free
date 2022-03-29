@@ -21,6 +21,7 @@ if (!defined('access') or !access) {
 // Gettext with parsed arguments
 function _s($msg, $args=null)
 {
+    $msg = CHV\L10n::gettext($msg);
     if ($msg && !is_null($args)) {
         $fn = is_array($args) ? 'strtr' : 'sprintf';
         $msg = $fn($msg, $args);

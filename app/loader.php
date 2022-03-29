@@ -106,6 +106,7 @@ require_once CHV_APP_PATH_LIB_VENDOR . 'autoload.php';
 
 define('CHV_APP_PATH_CONTENT_SYSTEM', CHV_APP_PATH_CONTENT . 'system/');
 define('CHV_APP_PATH_CONTENT_LOCKS', CHV_APP_PATH_CONTENT . 'locks/');
+define('CHV_APP_PATH_CONTENT_LANGUAGES', CHV_APP_PATH_CONTENT . 'languages/');
 
 // CHV paths
 define('CHV_PATH_IMAGES', G_ROOT_PATH . CHV_FOLDER_IMAGES . '/');
